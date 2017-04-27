@@ -1,0 +1,30 @@
+{
+  "name": "next-bootstrap-site",
+  "description": "Another bootstrap site seed.",
+  "main": "dist/next-bootstrap-site.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-bootstrap-site",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "next-js-core": "afeiship/next-js-core"
+  }
+}

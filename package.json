@@ -1,0 +1,32 @@
+{
+  "name": "next-bootstrap-site",
+  "version": "0.0.0",
+  "description": "Another bootstrap site seed.",
+  "homepage": "https://github.com/afeiship/next-bootstrap-site",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "dev": "gulp serve",
+    "build": "gulp build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-debug": "^3.1.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-size": "^2.1.0",
+    "gulp-uglify": "^2.1.2",
+    "yargs": "^4.7.1"
+  },
+  "dependencies": {
+    "next-js-core": "github:afeiship/next-js-core"
+  }
+}
