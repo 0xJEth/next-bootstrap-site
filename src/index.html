@@ -7,127 +7,138 @@
   <title>Bootstrap</title>
 
   <!--[if lt IE 9]>
-    <script src="https://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
-    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <script src="https://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+  <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
-  <nav class="navbar navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Next bootstrap site template</a>
-      </div>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+              aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Next bootstrap site template</a>
     </div>
-  </nav>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
 
 
+<section class="container">
+  <ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li class="active">list</li>
+  </ol>
 
-  <section class="container">
-    <ol class="breadcrumb">
-      <li><a href="#">Home</a></li>
-      <li class="active">list</li>
-    </ol>
 
-    <div class="alert alert-success" role="alert">Well done! You successfully read this important alert message</div>
-    <div class="row">
-      <div class="col-xs-4">
-        <button class="btn btn-block btn-default btn1">Button1</button>
-      </div>
-      <div class="col-xs-4">
-        <button class="btn btn-block btn-primary btn2">Button2</button>
-      </div>
-      <div class="col-xs-4">
-        <button class="btn btn-block btn-success btn3">Button3</button>
-      </div>
+  <section class="row">
+    <div class="col-xs-4">
+      <ul class="nav">
+        <li class="active"><a href="#glyphicons-glyphs">Available glyphs</a></li>
+        <li class=""><a href="#glyphicons-how-to-use">How to use</a></li>
+        <li class=""><a href="#glyphicons-examples">Examples</a></li>
+      </ul>
+    </div>
+    <div class="col-xs-8">col-8</div>
+  </section>
+
+  <div class="alert alert-success" role="alert">Well done! You successfully read this important alert message</div>
+  <div class="row">
+    <div class="col-xs-4">
+      <button class="btn btn-block btn-default btn1">Button1</button>
+    </div>
+    <div class="col-xs-4">
+      <button class="btn btn-block btn-primary btn2">Button2</button>
+    </div>
+    <div class="col-xs-4">
+      <button class="btn btn-block btn-success btn3">Button3</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-4">
+      <a href="#" class="thumbnail">
+        <img src="http://placeholder.qiniudn.com/180x180">
+      </a>
     </div>
 
-    <div class="row">
-      <div class="col-xs-4">
-        <a href="#" class="thumbnail">
-          <img src="http://placeholder.qiniudn.com/180x180">
-        </a>
-      </div>
-
-      <div class="col-xs-4">
-        <a href="#" class="thumbnail">
-          <img src="http://placeholder.qiniudn.com/180x180">
-        </a>
-      </div>
-
-      <div class="col-xs-4">
-        <a href="#" class="thumbnail">
-          <img src="http://placeholder.qiniudn.com/180x180">
-        </a>
-      </div>
+    <div class="col-xs-4">
+      <a href="#" class="thumbnail">
+        <img src="http://placeholder.qiniudn.com/180x180">
+      </a>
     </div>
 
-    <section class="row">
-      <div class="col-xs-4">
-        <div class="panel panel-primary">
-          <div class="panel-heading">Panel heading</div>
-          <div class="panel-body">
-            <p>Some test content...</p>
-          </div>
+    <div class="col-xs-4">
+      <a href="#" class="thumbnail">
+        <img src="http://placeholder.qiniudn.com/180x180">
+      </a>
+    </div>
+  </div>
+
+  <section class="row">
+    <div class="col-xs-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Panel heading</div>
+        <div class="panel-body">
+          <p>Some test content...</p>
         </div>
       </div>
+    </div>
 
-      <div class="col-xs-4">
-        <div class="panel panel-success">
-          <div class="panel-heading">Panel heading</div>
-          <div class="panel-body">
-            <p>Some test content...</p>
-          </div>
+    <div class="col-xs-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">Panel heading</div>
+        <div class="panel-body">
+          <p>Some test content...</p>
         </div>
       </div>
+    </div>
 
-      <div class="col-xs-4">
-        <div class="panel panel-info">
-          <div class="panel-heading">Panel heading</div>
-          <div class="panel-body">
-            <p>Some test content...</p>
-          </div>
+    <div class="col-xs-4">
+      <div class="panel panel-info">
+        <div class="panel-heading">Panel heading</div>
+        <div class="panel-body">
+          <p>Some test content...</p>
         </div>
       </div>
-    </section>
-
-    <blockquote>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-    </blockquote>
-
-    <div class="row">
-      <span class="label label-default">Default</span>
-      <span class="label label-primary">Primary</span>
-      <span class="label label-success">Success</span>
-      <span class="label label-info">Info</span>
-      <span class="label label-warning">Warning</span>
-      <span class="label label-danger">Danger</span>
     </div>
   </section>
 
-  <!--venders start-->
-  <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="bower_components/next-js-core/dist/next-js-core.min.js"></script>
-  <!--venders end-->
+  <blockquote>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+  </blockquote>
 
-  <script src="scripts/app-base.js"></script>
-  <script src="scripts/index.js"></script>
+  <div class="row">
+    <span class="label label-default">Default</span>
+    <span class="label label-primary">Primary</span>
+    <span class="label label-success">Success</span>
+    <span class="label label-info">Info</span>
+    <span class="label label-warning">Warning</span>
+    <span class="label label-danger">Danger</span>
+  </div>
+</section>
+
+<!--venders start-->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/next-js-core/dist/next-js-core.min.js"></script>
+<!--venders end-->
+
+<script src="scripts/app-base.js"></script>
+<script src="scripts/index.js"></script>
 </body>
 </html>

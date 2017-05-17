@@ -25,6 +25,7 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "next-js-core": "afeiship/next-js-core"
+    "next-js-core": "afeiship/next-js-core",
+    "bootstrap-sass": "^3.3.7"
   }
 }

@@ -3,6 +3,8 @@
 
 
 ## resources:
++ https://github.com/twbs/bootstrap-sass
+
 
 ## todos:
 - [ ] todo list..
