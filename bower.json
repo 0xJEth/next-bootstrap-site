@@ -26,6 +26,7 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "next-js-core": "afeiship/next-js-core",
-    "bootstrap-sass": "^3.3.7"
+    "bootstrap-sass": "^3.3.7",
+    "jquery-totop": "afeiship/jquery-totop"
   }
 }

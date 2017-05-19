@@ -17,6 +17,9 @@
       elements: function () {
         this._$btn1 = $('.btn1');
       },
+      start:function(){
+        $().totop();
+      },
       show: function(){
         console.log('====show something!======');
       },

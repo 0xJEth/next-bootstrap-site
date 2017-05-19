@@ -11,7 +11,9 @@
       init: function () {
         this.elements();
         this.events();
+        this.start();
       },
+      start:function(){},
       elements: function () {
       },
       events: function () {

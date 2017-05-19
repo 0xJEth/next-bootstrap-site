@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
@@ -37,7 +37,7 @@
 </nav>
 
 
-<section class="container">
+<section class="container global-content">
   <ol class="breadcrumb">
     <li><a href="#">Home</a></li>
     <li class="active">list</li>
@@ -54,6 +54,38 @@
     </div>
     <div class="col-xs-8">col-8</div>
   </section>
+
+
+  <div class="text-center container">
+    <h3>产品帮助文档</h3>
+    <p>
+      我们精心挑选了一些文档，特别推荐给您，它们都是点击率非常高的文档。<br>
+      当然，还有一些您可能以前没有看到的新文档。
+    </p>
+
+    <div class="row">
+      <div class="col-md-offset-1 col-md-2 col-xs-4">
+        <img width="96" src="https://developer.qiniu.com/assets/logo-96px/icon-kodo-7f043722daf0c8855879c27bf9eff87b77f4fdd846be4083f49e4ccbf385896a.svg" alt="Icon kodo">
+        <p>对象存储</p>
+      </div>
+      <div class="col-md-2 col-xs-4">
+        <img width="96" src="https://developer.qiniu.com//assets/logo-96px/icon-pili-81f88dc6f79068216f1dd53592e3d16f19a4fa90d2257f30d5c45e1c09c89cb3.svg" alt="Icon pili">
+        <p>直播</p>
+      </div>
+      <div class="col-md-2 col-xs-4">
+        <img width="96" src="https://developer.qiniu.com//assets/logo-96px/icon-fusion-efb64e7d094aabd2fce93ef72cf84ba21ea8d01287ac6ccba299556215e2a998.svg" alt="Icon fusion">
+        <p>融合 CDN</p>
+      </div>
+      <div class="col-md-2 col-xs-4">
+        <img width="96" src="https://developer.qiniu.com//assets/logo-96px/icon-ssl-certificate-a6aa8f0c8647c284f49065dfd786520255829314e4755bc5b10974a6cadc9c5d.svg" alt="Icon ssl certificate">
+        <p>SSL 证书服务</p>
+      </div>
+      <div class="col-md-2 col-xs-4">
+        <img width="96" src="https://developer.qiniu.com//assets/logo-96px/icon-dora-e0d81debf782d4d0ff4b87cf065d0cefbdcb4c0ac9c147f0664e5fe97d5130d1.svg" alt="Icon dora">
+        <p>数据处理</p>
+      </div>
+    </div>
+  </div>
 
   <div class="alert alert-success" role="alert">Well done! You successfully read this important alert message</div>
   <div class="row">
@@ -117,10 +149,27 @@
     </div>
   </section>
 
-  <blockquote>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-  </blockquote>
+
+  <div class="row">
+    <div class="col-xs-4">
+      <a href="#" class="thumbnail">
+        <img src="http://placeholder.qiniudn.com/180x180">
+      </a>
+    </div>
+
+    <div class="col-xs-4">
+      <a href="#" class="thumbnail">
+        <img src="http://placeholder.qiniudn.com/180x180">
+      </a>
+    </div>
+
+    <div class="col-xs-4">
+      <a href="#" class="thumbnail">
+        <img src="http://placeholder.qiniudn.com/180x180">
+      </a>
+    </div>
+  </div>
+
 
   <div class="row">
     <span class="label label-default">Default</span>
@@ -130,12 +179,49 @@
     <span class="label label-warning">Warning</span>
     <span class="label label-danger">Danger</span>
   </div>
+
+
+  <blockquote>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+  </blockquote>
+
+
+  <blockquote>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+  </blockquote>
+
+
+  <blockquote>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+  </blockquote>
+
 </section>
+
+<footer class="container-fluid global-footer">
+  <div class="row links">
+    <div class="col-md-2">
+      <div class="copyright">© 2017 七牛云</div>
+    </div>
+    <div class="col-md-10">
+      <ul class="qiniu-sites list-unstyled">
+        <li><a href="http://www.qiniu.com" target="_blank">七牛官网</a></li>
+        <li><a href="https://portal.qiniu.com" target="_blank">开发者平台</a></li>
+        <li><a href="https://segmentfault.com/qiniu" target="_blank">问答社区</a></li>
+        <li><a href="https://support.qiniu.com" target="_blank">技术支持</a></li>
+        <li><a href="/brand">七牛标识</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
 
 <!--venders start-->
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="bower_components/next-js-core/dist/next-js-core.min.js"></script>
+<script src="bower_components/jquery-totop/dist/scripts/index.js"></script>
 <!--venders end-->
 
 <script src="scripts/app-base.js"></script>

@@ -1,5 +1,23 @@
 @import "bootstrap";
 
-body{
+//vendors:
+@import "../bower_components/jquery-totop/dist/styles/index.css";
+
+
+body {
   background: #fff;
+}
+
+.global-footer {
+  background-color: #303749;
+  color: #FFF;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height:150px;
+}
+
+.global-content{
+  margin:100px auto 150px;
 }
